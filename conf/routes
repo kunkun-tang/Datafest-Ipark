@@ -1,0 +1,26 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Default path will just redirect to the computer list
+GET     /                           controllers.Application.index
+
+# Show the all parking lots
+GET     /parkinglots              controllers.Application.listParkinglots
+
+# reserve a parking lot
+GET     /reserve              controllers.Application.reserve(username: String, parkID:Int)
+
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.at(path="/public", file)
+
+GET     /createObject              controllers.Application.createObject
+
+GET     /findByName              controllers.Application.findByName(name: String)
+
+GET     /findAll                 controllers.Application.findAll(username: String)
+
+GET     /newHome                 controllers.Application.newHome
+
+
