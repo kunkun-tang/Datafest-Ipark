@@ -11,7 +11,7 @@
     'key': 'AIzaSyBRn6ciA8c873U6B1Rn7oe3TOjWjHhUCsk'
   };
 
-  var DatUrl = '/api/parkinglots?';
+  var DatUrl = '/api/findAll?';
   var ReserveUrl = '/api/reserve?';
   var User = 'gongzhitaao';
 
@@ -87,32 +87,32 @@
     $.ajax({
       url: DatUrl,
       data: {
-        'x': 2.4,
-        'y': 2,
-        'radius': 10000,
-        'username': User
+        'username': User,
+        'radius': 10000
       },
       dataType: 'json'
     }).success(function(json) {
-      var i, data = json['values'];
+
+      var data = json['0'];
 
       for (i = 0; i < park_markers.length; ++i)
         remove_marker(park_markers[i]);
 
       park_markers = [];
-
       for (i = 0; i < data.length; ++i)
         add_marker(data[i]);
     });
   }
 
   function add_marker(d) {
-    var perc = ((d['available'] / d['max'] * 100) % 10) * 10;
+
+    var perc = 100 - parseInt((d['available'] / d['max'] * 100) / 10) * 10;
     var latlng = new google.maps.LatLng(d['coorx'], d['coory']);
     var marker = new google.maps.Marker({
       position: latlng,
       map: map,
-      icon: 'img/Icon ' + perc,
+      icon: {url: '/assets/images/Icon' + perc +'.svg',
+      scaledSize: new google.maps.Size(40,64)},
       title: 'Click to zoom'
     });
 

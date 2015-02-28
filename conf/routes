@@ -6,10 +6,10 @@
 GET     /                           controllers.Application.index
 
 # Show the all parking lots
-GET     /parkinglots              controllers.Application.listParkinglots
+GET     /api/parkinglots              controllers.Application.listParkinglots
 
 # reserve a parking lot
-GET     /reserve              controllers.Application.reserve(username: String, parkID:Int)
+GET     /api/reserve              controllers.Application.reserve(username: String, parkID:Int)
 
 
 # Map static resources from the /public folder to the /assets URL path
@@ -19,8 +19,6 @@ GET     /createObject              controllers.Application.createObject
 
 GET     /findByName              controllers.Application.findByName(name: String)
 
-GET     /findAll                 controllers.Application.findAll(username: String)
+GET     /api/findAll                 controllers.Application.findAll(username: String, radius: Double)
 
 GET     /newHome                 controllers.Application.newHome
-
-

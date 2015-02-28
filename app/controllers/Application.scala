@@ -62,8 +62,9 @@ object Application extends Controller with MongoController{
     }
   }
 
-  def findAll(username: String) = Action.async {
+  def findAll(username: String, radius: Double) = Action.async {
     // let's do our query
+    println("findAll")
     val cursor: Cursor[JsObject] = collection.find(Json.obj()).
       // perform the query and get a cursor of JsObject
       cursor[JsObject]
