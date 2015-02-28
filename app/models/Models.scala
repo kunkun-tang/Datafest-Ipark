@@ -35,6 +35,7 @@ object Parkinglot{
     )
   }
 
+  // For test
   val parkinglot1 = Parkinglot( "1", "magnolia", 3.23, 52, 23, 100, 20, Calendar.getInstance().getTime(), false);
   val parkinglot2 = Parkinglot( "2", "glen", 3.23, 42, 23, 100, 20, Calendar.getInstance().getTime(), false);
 

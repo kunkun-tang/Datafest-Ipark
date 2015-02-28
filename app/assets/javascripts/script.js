@@ -130,43 +130,44 @@
       $('<p/>', {'text': 'price: ' + d['price']}),
       $('<div/>', {'class': 'progress'}).append(
         $('<div/>', {
-          'id': 'prog' + d['id'],
+          'id': 'prog' + d['_id'],
           'class': 'progress-bar progress-bar-striped', 'role': 'progressbar',
           'aria-valuenow': '0', 'aria-valuemin': '0',
           'aria-valuemax': '100', 'style': 'width:' + d['available']/d['max'] * 100 + '%',
           'text': '' + d['available'] + '/' + d['max']})),
       $('<button/>', {
-        'id': 'park' + d['id'],
+        'id': 'park' + d['_id'],
         'type': 'button',
         'class': 'btn btn-default reserve-btn',
         'text': d['reserved'] ? 'Cancel' : 'Reserve' })
     ).html();
 
     if (d['reserved'])
-      reserved = d['id'];
+      reserved = d['_id'];
 
     google.maps.event.addListener(marker, 'click', function() {
       info.setContent(cnt);
       info.open(map, marker);
       calcRoute(marker.position);
 
-      $('#park' + d['id']).click(function(){
-        if (reserved == parseInt(d['id'])) {
+      console.log(d);
+      $('#park' + d['_id']).click(function(){
+        if (reserved == parseInt(d['_id'])) {
           $.ajax({
             url: ReserveUrl,
-            data: {'parkID': -parseInt(d['id']), 'username': User},
+            data: {'parkID': -parseInt(d['_id']), 'username': User},
             dataType: 'json'
           })
             .success(function(d) {
               swal("Cancelled!", "Your reservation has been cancelled.", "success");
-              $('#park' + d['id']).text('Reserve');
-              $('#prog' + d['id']).text('' + (d['available'] + 1) + '/' + d['max']);
+              $('#park' + d['_id']).text('Reserve');
+              $('#prog' + d['_id']).text('' + (d['available'] + 1) + '/' + d['max']);
               reserved = -1;
             });
         } else {
           $.ajax({
             url: ReserveUrl,
-            data: {'parkID': parseInt(d['id']), 'username': User},
+            data: {'parkID': parseInt(d['_id']), 'username': User},
             dataType: 'json'
           })
             .success(function(d) {
@@ -176,10 +177,10 @@
               if (reserved >= 0)
                 try {
                   $('#park' + reserved).text('Reserve');
-                  $('#prog' + d['id']).text('' + (d['available'] + 1) + '/' + d['max']);
+                  $('#prog' + d['_id']).text('' + (d['available'] + 1) + '/' + d['max']);
                 } catch (e) { }
-              reserved = parseInt(d['id']);
-              $('#prog' + d['id']).text('' + (d['available'] - 1) + '/' + d['max']);
+              reserved = parseInt(d['_id']);
+              $('#prog' + d['_id']).text('' + (d['available'] - 1) + '/' + d['max']);
             });
         }
       });

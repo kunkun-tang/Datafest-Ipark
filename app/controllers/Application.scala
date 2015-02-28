@@ -15,6 +15,7 @@ import reactivemongo.api._
 // Reactive Mongo plugin, including the JSON-specialized collection
 import play.modules.reactivemongo.MongoController
 import play.modules.reactivemongo.json.collection.JSONCollection
+import scala.util.{Failure, Success}
 
 import anorm._
 
@@ -24,11 +25,9 @@ import models._
 import models.Parkinglot._
 
 /**
- * Manage a database of computers
+ * Manage a database of parkinglots
  */
 object Application extends Controller with MongoController{ 
-
-
 
   def collection: JSONCollection = db.collection[JSONCollection]("parkinglots")
 
@@ -64,7 +63,6 @@ object Application extends Controller with MongoController{
 
   def findAll(username: String, radius: Double) = Action.async {
     // let's do our query
-    println("findAll")
     val cursor: Cursor[JsObject] = collection.find(Json.obj()).
       // perform the query and get a cursor of JsObject
       cursor[JsObject]
@@ -102,12 +100,51 @@ object Application extends Controller with MongoController{
     Ok(html.main())
   }
 
-  def listParkinglots = Action{ implicit request =>
-    Ok(Parkinglot.show)
-  }
 
-  def reserve(username: String, parkID: Int) = Action{ implicit request =>
-    Ok(Parkinglot.show)
+  def reserve(parkID: Int, username: String) = Action{
+    // let's do our query
+    println("reserve" + " parkID = " + parkID);
+
+    val positiveParkID = scala.math.abs(parkID);
+
+    val cursor: Cursor[JsObject] = collection.
+      find(Json.obj("_id" -> positiveParkID.toString)).
+      cursor[JsObject]
+
+    
+  	val futurePersonsList: Future[List[JsObject]] = cursor.collect[List]()
+    
+    // transform the list into a JsArray
+    val futurePersonsJsonArray: Future[JsArray] = futurePersonsList.map { pl =>
+      Json.arr(pl)
+    }
+
+    futurePersonsJsonArray.foreach { pl =>
+      val arr = pl \\ "available"
+			val addOne = arr(0).as[Int] + 1;
+			val removeOne = arr(0).as[Int] - 1;
+
+			var modifier: JsObject = null;
+			if(parkID >= 0){
+  			modifier = Json.obj(
+				  "$set" -> Json.obj(
+				    "available" -> addOne)
+				)
+  		}
+			else{
+  			modifier = Json.obj(
+				  "$set" -> Json.obj(
+				    "available" -> removeOne)
+				)
+  		}
+  		collection.update(Json.obj("_id" -> positiveParkID.toString), modifier).onComplete{
+			  case Failure(e) => throw e
+			  case Success(_) => println("successful update!")
+  		}
+
+    }
+
+    Ok(html.main())
   }
 
 }

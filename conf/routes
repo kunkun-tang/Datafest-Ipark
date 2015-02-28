@@ -5,12 +5,8 @@
 # Default path will just redirect to the computer list
 GET     /                           controllers.Application.index
 
-# Show the all parking lots
-GET     /api/parkinglots              controllers.Application.listParkinglots
-
 # reserve a parking lot
-GET     /api/reserve              controllers.Application.reserve(username: String, parkID:Int)
-
+GET     /api/reserve              controllers.Application.reserve(parkID:Int, username: String)
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)
@@ -19,6 +15,7 @@ GET     /createObject              controllers.Application.createObject
 
 GET     /findByName              controllers.Application.findByName(name: String)
 
+# Show the all parking lots
 GET     /api/findAll                 controllers.Application.findAll(username: String, radius: Double)
 
 GET     /newHome                 controllers.Application.newHome
