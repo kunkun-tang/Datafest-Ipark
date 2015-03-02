@@ -1,5 +1,23 @@
 /*jshint sub:true*/
 
+function signinCallback(authResult) {
+  if (authResult['status']['signed_in']) {
+    // Update the app to reflect a signed in user
+    // Hide the sign-in button now that the user is authorized, for example:
+
+    document.getElementById('signinButton').setAttribute('style', 'display: none');
+    
+  } else {
+    // Update the app to reflect a signed out user
+    // Possible error values:
+    //   "user_signed_out" - User is signed-out
+    //   "access_denied" - User denied access to your app
+    //   "immediate_failed" - Could not automatically log in the user
+    console.log('Sign-in state: ' + authResult['error']);
+  }
+}
+
+
 (function($, window, aaa){
 
   var map = aaa;
@@ -139,18 +157,17 @@
         'id': 'park' + d['_id'],
         'type': 'button',
         'class': 'btn btn-default reserve-btn',
-        'text': d['reserved'] ? 'Cancel' : 'Reserve' })
+        'text': 'Reserve' })
     ).html();
 
-    if (d['reserved'])
-      reserved = d['_id'];
+    // if (d['reserved'])
+    //   reserved = d['_id'];
 
     google.maps.event.addListener(marker, 'click', function() {
       info.setContent(cnt);
       info.open(map, marker);
       calcRoute(marker.position);
 
-      console.log(d);
       $('#park' + d['_id']).click(function(){
         if (reserved == parseInt(d['_id'])) {
           $.ajax({
@@ -159,9 +176,10 @@
             dataType: 'json'
           })
             .success(function(d) {
+              var data = d['0']['0'];
               swal("Cancelled!", "Your reservation has been cancelled.", "success");
-              $('#park' + d['_id']).text('Reserve');
-              $('#prog' + d['_id']).text('' + (d['available'] + 1) + '/' + d['max']);
+              $('#park' + data['_id']).text('Reserve');
+              $('#prog' + data['_id']).text('' + (data['available'] - 1) + '/' + data['max']);
               reserved = -1;
             });
         } else {
@@ -171,16 +189,12 @@
             dataType: 'json'
           })
             .success(function(d) {
+              var data = d['0']['0'];
               swal("Reserved!", "Your reservation has been confirmed.", "success");
-              $('#' + parkid).text('Cancel');
-              console.log(reserved);
-              if (reserved >= 0)
-                try {
-                  $('#park' + reserved).text('Reserve');
-                  $('#prog' + d['_id']).text('' + (d['available'] + 1) + '/' + d['max']);
-                } catch (e) { }
-              reserved = parseInt(d['_id']);
-              $('#prog' + d['_id']).text('' + (d['available'] - 1) + '/' + d['max']);
+              console.log(data['_id']);
+              $('#park' + data['_id']).text('Cancel');
+              reserved = parseInt(data['_id']);
+              $('#prog' + data['_id']).text('' + (data['available'] - 1) + '/' + data['max']);
             });
         }
       });

@@ -101,7 +101,7 @@ object Application extends Controller with MongoController{
   }
 
 
-  def reserve(parkID: Int, username: String) = Action{
+  def reserve(parkID: Int, username: String) = Action.async{
     // let's do our query
     println("reserve" + " parkID = " + parkID);
 
@@ -119,8 +119,10 @@ object Application extends Controller with MongoController{
       Json.arr(pl)
     }
 
+    var jsArr: JsArray = null;
     futurePersonsJsonArray.foreach { pl =>
-      val arr = pl \\ "available"
+      val arr = pl \\ "available";
+      jsArr = pl;
 			val addOne = arr(0).as[Int] + 1;
 			val removeOne = arr(0).as[Int] - 1;
 
@@ -144,7 +146,10 @@ object Application extends Controller with MongoController{
 
     }
 
-    Ok(html.main())
+    // everything's ok! Let's reply with the array
+    futurePersonsJsonArray.map { pl =>
+      Ok(pl)
+    }  
   }
 
 }
