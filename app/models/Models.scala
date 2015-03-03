@@ -14,7 +14,7 @@ import java.util.Date
 
 import scala.language.postfixOps
 
-case class Parkinglot(val id: String, val name: String, var price: Double, val coorx: Double, 
+case class Parkinglot(val _id: String, val name: String, var price: Double, val coorx: Double, 
   val coory: Double, var max: Int, var available: Int, var lastCheck: Date, var reserved: Boolean = false)
 
 object Parkinglot{
@@ -23,7 +23,7 @@ object Parkinglot{
 
   implicit val ParkinglotWrites = new Writes[Parkinglot] {
     def writes(pl: Parkinglot) = Json.obj(
-      "id" -> pl.id,
+      "_id" -> pl._id,
       "name" -> pl.name,
       "price" -> pl.price,
       "coorx" -> pl.coorx,

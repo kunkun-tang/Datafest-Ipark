@@ -1,22 +1,20 @@
 /*jshint sub:true*/
+/*jshint smarttabs:true */
 
-function signinCallback(authResult) {
-  if (authResult['status']['signed_in']) {
-    // Update the app to reflect a signed in user
-    // Hide the sign-in button now that the user is authorized, for example:
-
-    document.getElementById('signinButton').setAttribute('style', 'display: none');
-    
-  } else {
-    // Update the app to reflect a signed out user
-    // Possible error values:
-    //   "user_signed_out" - User is signed-out
-    //   "access_denied" - User denied access to your app
-    //   "immediate_failed" - Could not automatically log in the user
-    console.log('Sign-in state: ' + authResult['error']);
+  function signinCallback(authResult) {
+    if (authResult['status']['signed_in']) {
+      // Update the app to reflect a signed in user
+      // Hide the sign-in button now that the user is authorized, for example:
+      document.getElementById('signinButton').setAttribute('style', 'display: none');
+    } else {
+      // Update the app to reflect a signed out user
+      // Possible error values:
+      //   "user_signed_out" - User is signed-out
+      //   "access_denied" - User denied access to your app
+      //   "immediate_failed" - Could not automatically log in the user
+      console.log('Sign-in state: ' + authResult['error']);
+    }
   }
-}
-
 
 (function($, window, aaa){
 
@@ -31,6 +29,7 @@ function signinCallback(authResult) {
 
   var DatUrl = '/api/findAll?';
   var ReserveUrl = '/api/reserve?';
+  var registerURL = '/api/createPark?';
   var User = 'gongzhitaao';
 
   var initpos = { lat: 32.61, lng: -85.48 };
@@ -72,11 +71,88 @@ function signinCallback(authResult) {
       }
     });
 
+    var addition = 1;
+
     google.maps.event.addListener(cur_marker,'dragend',function(event) {
       update(event.latlng,true);
       if(directionsDisplay!=aaa){
         directionsDisplay.set('directions', null);
       }
+      cur_marker.info = new google.maps.InfoWindow({
+        position: event.latlng,
+        maxHeight: 1500
+      });
+
+
+      google.maps.event.addListener(cur_marker, 'click', function() {
+
+		    var cnt = $('<div/>', {'class': 'modal-dialog'}).append(
+		      $('<div/>', {'class': 'modal-content'}).append(
+		        $('<div/>', {'class': 'modal-header'}).append(
+		          $('<h3/>', {'class': 'modal-title', 'text': 'Register a Parkinglot'})
+		        ),
+		        $('<div/>', {'class': 'modal-body'}).append(
+		          $('<form/>', {'class': 'form-horizontal', 'role': 'form'}).append(
+		            $('<fieldset/>').append(
+		              $('<div/>').append(
+		                $('<label/>', {'class': 'col-sm-3 control-label', 'text': 'Name'}),
+		                $('<div/>', {'class': 'col-sm-7'}).append(
+		                  $('<input/>', {'class': 'form-control', 'id': 'registerName', 'type': 'text'})
+		                )
+		              ),
+		              $('<div/>').append(
+		                $('<label/>', {'class': 'col-sm-3 control-label', 'text': 'Available Num'}),
+		                $('<div/>', {'class': 'col-sm-7'}).append(
+		                  $('<input/>', {'class': 'form-control', 'id': 'registerAvai', 'type': 'text'})
+		                )
+		              ),
+		              $('<div/>').append(
+		                $('<label/>', {'class': 'col-sm-3 control-label', 'text': 'Max Num'}),
+		                $('<div/>', {'class': 'col-sm-7'}).append(
+		                  $('<input/>', {'class': 'form-control', 'id': 'registerMax', 'type': 'text'})
+		                )
+		              )
+		            )
+		          )
+		        ),
+
+		        $('<div/>', {'class': 'modal-footer'}).append(
+		          $('<button/>', {'class': 'btn  btn-primary', 'id': 'createButton' + addition, 'text': 'Create', 'type': 'button'}),
+		          $('<button/>', {'class': 'btn', 'id': 'cancelButton', 'text': 'Cancel', 'type': 'button'})        
+		        )
+
+		      )
+		    ).html();
+        
+        cur_marker.info.setContent(cnt);
+        cur_marker.info.open(map, cur_marker);
+        // addition += 1;
+				// setTimeout(function () { cur_marker.info.close(); }, 3000);
+        
+        console.log($('#createButton'+addition));
+
+				$('#createButton'+addition).click(function(){
+					console.log("access creat Button");
+					$.ajax({
+						url: registerURL,
+						data: {
+							// 'username': 'User',
+							'parkName': $('#registerName').val(),
+							'parkMax': $('#registerMax').val(),
+							'parkAvai': $('#registerAvai').val(),
+							'coorx': cur_marker.getPosition().lat(),
+							'coory': cur_marker.getPosition().lng()
+						},
+						dataType: 'json'
+					}).success(function(json) {
+						console.log(json);
+			      add_marker(json);
+			      cur_marker.info.close();
+			    });
+				});
+
+      });
+
     });
 
   };
@@ -124,7 +200,7 @@ function signinCallback(authResult) {
 
   function add_marker(d) {
 
-    var perc = 100 - parseInt((d['available'] / d['max'] * 100) / 10) * 10;
+    var perc = parseInt((d['available'] / d['max'] * 100) / 10) * 10;
     var latlng = new google.maps.LatLng(d['coorx'], d['coory']);
     var marker = new google.maps.Marker({
       position: latlng,

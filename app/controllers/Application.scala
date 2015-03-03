@@ -17,7 +17,8 @@ import play.modules.reactivemongo.MongoController
 import play.modules.reactivemongo.json.collection.JSONCollection
 import scala.util.{Failure, Success}
 
-import anorm._
+import java.util.Calendar
+import java.util.Date
 
 import views._
 import models._
@@ -31,13 +32,25 @@ object Application extends Controller with MongoController{
 
   def collection: JSONCollection = db.collection[JSONCollection]("parkinglots")
 
+  val bigNum = 999999;
 
-  def createObject = Action.async {
-    // insert the user
-    val futureResult = collection.insert(Parkinglot.parkinglot1)
-    // when the insert is performed, send a OK 200 result
-    futureResult.map(_ => Ok)
+  def createPark(name: String, max: Int, available: Int, coorx: Double, coory: Double) = Action {
+
+    val id = new scala.util.Random().nextInt(bigNum).toString;
+    val insertObj = Parkinglot( id, name, 3.23, coorx, coory, max, available, Calendar.getInstance().getTime(), false);
+    val json = Json.toJson(insertObj);
+    // insert(json);
+    collection.insert(json).map(lastError =>
+      Ok("Mongo LastError: %s".format(lastError)))
+    Ok(json);
   }
+
+  def insert(json: JsValue) = Action.async {
+    println(json);
+    collection.insert(json).map(lastError =>
+      Ok("Mongo LastError: %s".format(lastError)))
+  }
+
 
   def findByName(name: String) = Action.async {
     // let's do our query
