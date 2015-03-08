@@ -147,7 +147,7 @@ function signinCallback(authResult) {
   function update_parkinglot_marker(d) {
     var marker = parkinglot_markers[d['id']];
 
-    var ratio = parseInt((d['available'] / d['max'] * 100) / 10) * 10;
+    var ratio = 100 - parseInt((d['available'] / d['max'] * 100) / 10) * 10;
     marker.setIcon({
       url: 'assets/img/Icon' + ratio +'.svg',
       scaledSize: new google.maps.Size(40, 64) });
