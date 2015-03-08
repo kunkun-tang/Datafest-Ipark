@@ -9,15 +9,21 @@ Our hope is that by providing information about the availability of parking in t
 
 The parking app was written by current Computer Science and Eletrical Engineering students at Auburn University. Our back end part is written in the Scala functional programming language, while our frontend is by Html and javascripts. 
 
-## Back End Service
+## Back End Feature
 The back end service is implemented by Play Framework with Scala language. There are several features under the back end system:
 
 * It builds web applications in the built-in `JBoss Netty` web server.
-* Unordered list item
+* Asynchronized response is supported in our system. Play framework only uses a fixed thread pool to process requests, and suspended the request till thread is available.
 
 ![image](app/assets/images/fig2.png)
 
-## Install and Usage
+## Install and Run
+
+```
+$ sbt
+> run
+$ open http://localhost:9000
+```
 
 
-## 
+## Front End Feature
