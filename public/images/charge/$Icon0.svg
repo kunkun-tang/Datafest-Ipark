@@ -808,6 +808,38 @@
          in2="result9"
          id="feBlend6216" />
     </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter4655">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood4657" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite4659" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3.6"
+         result="blur"
+         id="feGaussianBlur4661" />
+      <feOffset
+         dx="26.6"
+         dy="16.4"
+         result="offset"
+         id="feOffset4663" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite4665" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -816,9 +848,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.62678868"
+     inkscape:zoom="0.5"
      inkscape:cx="448.95975"
-     inkscape:cy="655.85241"
+     inkscape:cy="520.58296"
      inkscape:document-units="px"
      inkscape:current-layer="g5249"
      showgrid="false"
@@ -852,255 +884,186 @@
        id="g5249"
        transform="translate(-33.504115,-1.595434)">
       <g
-         id="g4358"
-         style="filter:url(#filter5542)"
-         transform="translate(-41.481285,-57.435626)">
+         id="g4460"
+         transform="matrix(0.96810384,0,0,0.96810384,208.13735,153.06147)">
         <g
-           id="g20568"
-           transform="translate(-183.47492,-14.358907)"
-           style="">
+           transform="translate(-41.481285,-54.244758)"
+           style="filter:url(#filter5542)"
+           id="g4358">
           <g
-             transform="translate(-1.4285714,1.4285714)"
-             id="g20217"
-             style="">
+             transform="translate(-183.47492,-14.358907)"
+             id="g20568">
             <g
-               id="g20140"
-               style="">
+               id="g20217"
+               transform="translate(-1.4285714,1.4285714)">
               <g
-                 id="g20064"
-                 style="">
+                 id="g20140">
                 <g
-                   id="g19989"
-                   style="">
+                   id="g20064">
                   <g
-                     id="g19915"
-                     style="">
+                     id="g19989">
                     <g
-                       id="g19842"
-                       style="">
+                       id="g19915">
                       <g
-                         id="g19770"
-                         style="">
+                         id="g19842">
                         <g
-                           id="g19699"
-                           style="">
-                          <a
-                             transform="translate(192.85714,22.857143)"
-                             style="fill:#0000ff;"
-                             id="a4171">
-                            <g
-                               style="fill:#0000ff;"
-                               id="g7818">
-                              <circle
-                                 r="165.77585"
-                                 cy="308.4231"
-                                 cx="362.26541"
-                                 id="path3747"
-                                 style="fill:#0000ff;fill-opacity:1;stroke:none;" />
-                              <circle
-                                 style="fill:#0000ff;fill-opacity:1;stroke:none;"
-                                 id="circle4175"
-                                 cx="362.26541"
-                                 cy="308.4231"
-                                 r="165.77585" />
+                           id="g19770">
+                          <g
+                             id="g19699">
+                            <a
+                               id="a4171"
+                               style="fill:#0000ff"
+                               transform="translate(192.85714,22.857143)">
                               <g
-                                 id="g17928"
-                                 style="">
-                                <g
-                                   id="g17889"
-                                   style="">
-                                <g
-                                   id="g17851"
-                                   style="">
-                                <g
-                                   id="g17814"
-                                   style="">
-                                <g
-                                   id="g17778"
-                                   style="">
-                                <g
-                                   id="g17743"
-                                   style="">
-                                <g
-                                   id="g17709"
-                                   style="">
-                                <g
-                                   id="g17676"
-                                   style="">
-                                <g
-                                   id="g17644"
-                                   style="">
-                                <g
-                                   id="g17613"
-                                   style="">
-                                <g
-                                   id="g17583"
-                                   style="">
-                                <g
-                                   id="g17554"
-                                   style="">
-                                <g
-                                   id="g17526"
-                                   style="">
-                                <g
-                                   id="g17499"
-                                   style="">
-                                <g
-                                   id="g17473"
-                                   style="">
-                                <g
-                                   id="g17448"
-                                   style="">
-                                <g
-                                   id="g17424"
-                                   style="">
-                                <g
-                                   id="g17401"
-                                   style="">
-                                <g
-                                   id="g17379"
-                                   style="">
-                                <g
-                                   id="g17358"
-                                   style="">
-                                <g
-                                   id="g17338"
-                                   style="">
-                                <g
-                                   id="g17319"
-                                   style="">
-                                <g
-                                   id="g17301"
-                                   style="">
-                                <g
-                                   id="g17284"
-                                   style="">
-                                <g
-                                   id="g17268"
-                                   style="">
-                                <g
-                                   id="g17253"
-                                   style="">
-                                <g
-                                   id="g17239"
-                                   style="">
-                                <g
-                                   id="g17226"
-                                   style="">
-                                <g
-                                   id="g17214"
-                                   style="">
-                                <g
-                                   id="g17203"
-                                   style="">
-                                <g
-                                   id="g17193"
-                                   style="">
-                                <g
-                                   id="g17184"
-                                   style="">
-                                <g
-                                   id="g17176"
-                                   style="">
-                                <g
-                                   id="g17169"
-                                   style="">
-                                <g
-                                   id="g17163"
-                                   style="">
-                                <g
-                                   id="g17158"
-                                   style="">
-                                <g
-                                   id="g17154"
-                                   style="">
-                                <g
-                                   id="g17151"
-                                   style="">
-                                <g
-                                   id="g19201"
-                                   style="">
-                                <g
-                                   id="g19174"
-                                   style="">
-                                <g
-                                   id="g19148"
-                                   style="">
-                                <g
-                                   id="g19123"
-                                   style="">
-                                <g
-                                   id="g19099"
-                                   style="">
-                                <g
-                                   id="g19076"
-                                   style="">
-                                <g
-                                   id="g19054"
-                                   style="">
-                                <g
-                                   id="g19033"
-                                   style="">
-                                <g
-                                   id="g19013"
-                                   style="">
-                                <g
-                                   id="g18994"
-                                   style="">
-                                <g
-                                   id="g18976"
-                                   style="">
-                                <g
-                                   id="g18959"
-                                   style="">
-                                <g
-                                   id="g18943"
-                                   style="">
-                                <g
-                                   id="g18928"
-                                   style="">
-                                <g
-                                   id="g18914"
-                                   style="">
-                                <g
-                                   id="g18901"
-                                   style="">
-                                <g
-                                   id="g18889"
-                                   style="">
-                                <g
-                                   id="g18878"
-                                   style="">
-                                <g
-                                   id="g18868"
-                                   style="">
-                                <g
-                                   id="g18859"
-                                   style="">
-                                <g
-                                   id="g18851"
-                                   style="">
-                                <g
-                                   id="g18844"
-                                   style="">
-                                <g
-                                   id="g18838"
-                                   style="">
-                                <g
-                                   id="g18833"
-                                   style="">
-                                <g
-                                   id="g18829"
-                                   style="">
-                                <g
-                                   id="g18826"
-                                   style="">
+                                 id="g7818"
+                                 style="fill:#0000ff">
+                                <circle
+                                   style="fill:#0000ff;fill-opacity:1;stroke:none"
+                                   id="path3747"
+                                   cx="362.26541"
+                                   cy="308.4231"
+                                   r="165.77585" />
                                 <circle
                                    r="165.77585"
                                    cy="308.4231"
                                    cx="362.26541"
+                                   id="circle4175"
+                                   style="fill:#0000ff;fill-opacity:1;stroke:none" />
+                                <g
+                                   id="g17928">
+                                <g
+                                   id="g17889">
+                                <g
+                                   id="g17851">
+                                <g
+                                   id="g17814">
+                                <g
+                                   id="g17778">
+                                <g
+                                   id="g17743">
+                                <g
+                                   id="g17709">
+                                <g
+                                   id="g17676">
+                                <g
+                                   id="g17644">
+                                <g
+                                   id="g17613">
+                                <g
+                                   id="g17583">
+                                <g
+                                   id="g17554">
+                                <g
+                                   id="g17526">
+                                <g
+                                   id="g17499">
+                                <g
+                                   id="g17473">
+                                <g
+                                   id="g17448">
+                                <g
+                                   id="g17424">
+                                <g
+                                   id="g17401">
+                                <g
+                                   id="g17379">
+                                <g
+                                   id="g17358">
+                                <g
+                                   id="g17338">
+                                <g
+                                   id="g17319">
+                                <g
+                                   id="g17301">
+                                <g
+                                   id="g17284">
+                                <g
+                                   id="g17268">
+                                <g
+                                   id="g17253">
+                                <g
+                                   id="g17239">
+                                <g
+                                   id="g17226">
+                                <g
+                                   id="g17214">
+                                <g
+                                   id="g17203">
+                                <g
+                                   id="g17193">
+                                <g
+                                   id="g17184">
+                                <g
+                                   id="g17176">
+                                <g
+                                   id="g17169">
+                                <g
+                                   id="g17163">
+                                <g
+                                   id="g17158">
+                                <g
+                                   id="g17154">
+                                <g
+                                   id="g17151">
+                                <g
+                                   id="g19201">
+                                <g
+                                   id="g19174">
+                                <g
+                                   id="g19148">
+                                <g
+                                   id="g19123">
+                                <g
+                                   id="g19099">
+                                <g
+                                   id="g19076">
+                                <g
+                                   id="g19054">
+                                <g
+                                   id="g19033">
+                                <g
+                                   id="g19013">
+                                <g
+                                   id="g18994">
+                                <g
+                                   id="g18976">
+                                <g
+                                   id="g18959">
+                                <g
+                                   id="g18943">
+                                <g
+                                   id="g18928">
+                                <g
+                                   id="g18914">
+                                <g
+                                   id="g18901">
+                                <g
+                                   id="g18889">
+                                <g
+                                   id="g18878">
+                                <g
+                                   id="g18868">
+                                <g
+                                   id="g18859">
+                                <g
+                                   id="g18851">
+                                <g
+                                   id="g18844">
+                                <g
+                                   id="g18838">
+                                <g
+                                   id="g18833">
+                                <g
+                                   id="g18829">
+                                <g
+                                   id="g18826">
+                                <circle
+                                   style="fill:#0000ff;fill-opacity:1;stroke:none"
                                    id="circle4189"
-                                   style="fill:#0000ff;fill-opacity:1;stroke:none;" />
+                                   cx="362.26541"
+                                   cy="308.4231"
+                                   r="165.77585" />
+                                </g>
                                 </g>
                                 </g>
                                 </g>
@@ -1165,8 +1128,8 @@
                                 </g>
                                 </g>
                               </g>
-                            </g>
-                          </a>
+                            </a>
+                          </g>
                         </g>
                       </g>
                     </g>
@@ -1175,307 +1138,209 @@
               </g>
             </g>
           </g>
-        </g>
-        <g
-           id="g17148"
-           transform="translate(7.7867999,8.6650982)"
-           style="">
           <g
-             id="g18785"
-             style="">
+             transform="translate(7.7867999,8.6650982)"
+             id="g17148">
             <g
-               id="g18745"
-               style="">
+               id="g18785">
               <g
-                 id="g18706"
-                 style="">
+                 id="g18745">
                 <g
-                   id="g18668"
-                   style="">
+                   id="g18706">
                   <g
-                     id="g18631"
-                     style="">
+                     id="g18668">
                     <g
-                       id="g18595"
-                       style="">
+                       id="g18631">
                       <g
-                         id="g18560"
-                         style="">
+                         id="g18595">
                         <g
-                           id="g18526"
-                           style="">
+                           id="g18560">
                           <g
-                             id="g18493"
-                             style="">
+                             id="g18526">
                             <g
-                               id="g18461"
-                               style="">
+                               id="g18493">
                               <g
-                                 id="g18430"
-                                 style="">
+                                 id="g18461">
                                 <g
-                                   id="g18400"
-                                   style="">
+                                   id="g18430">
                                 <g
-                                   id="g18371"
-                                   style="">
+                                   id="g18400">
                                 <g
-                                   id="g18343"
-                                   style="">
+                                   id="g18371">
                                 <g
-                                   id="g18316"
-                                   style="">
+                                   id="g18343">
                                 <g
-                                   id="g18290"
-                                   style="">
+                                   id="g18316">
                                 <g
-                                   id="g18265"
-                                   style="">
+                                   id="g18290">
                                 <g
-                                   id="g18241"
-                                   style="">
+                                   id="g18265">
                                 <g
-                                   id="g18218"
-                                   style="">
+                                   id="g18241">
                                 <g
-                                   id="g18196"
-                                   style="">
+                                   id="g18218">
                                 <g
-                                   id="g18175"
-                                   style="">
+                                   id="g18196">
                                 <g
-                                   id="g18155"
-                                   style="">
+                                   id="g18175">
                                 <g
-                                   id="g18136"
-                                   style="">
+                                   id="g18155">
                                 <g
-                                   id="g18118"
-                                   style="">
+                                   id="g18136">
                                 <g
-                                   id="g18101"
-                                   style="">
+                                   id="g18118">
                                 <g
-                                   id="g18085"
-                                   style="">
+                                   id="g18101">
                                 <g
-                                   id="g18070"
-                                   style="">
+                                   id="g18085">
                                 <g
-                                   id="g18056"
-                                   style="">
+                                   id="g18070">
                                 <g
-                                   id="g18043"
-                                   style="">
+                                   id="g18056">
                                 <g
-                                   id="g18031"
-                                   style="">
+                                   id="g18043">
                                 <g
-                                   id="g18020"
-                                   style="">
+                                   id="g18031">
                                 <g
-                                   id="g18010"
-                                   style="">
+                                   id="g18020">
                                 <g
-                                   id="g18001"
-                                   style="">
+                                   id="g18010">
                                 <g
-                                   id="g17993"
-                                   style="">
+                                   id="g18001">
                                 <g
-                                   id="g17986"
-                                   style="">
+                                   id="g17993">
                                 <g
-                                   id="g17980"
-                                   style="">
+                                   id="g17986">
                                 <g
-                                   id="g17975"
-                                   style="">
+                                   id="g17980">
                                 <g
-                                   id="g17971"
-                                   style="">
+                                   id="g17975">
                                 <g
-                                   id="g17968"
-                                   style="">
+                                   id="g17971">
                                 <g
-                                   id="g19229"
-                                   style="">
+                                   id="g17968">
                                 <g
-                                   id="g20545"
-                                   style="">
+                                   id="g19229">
                                 <g
-                                   id="g20523"
-                                   style="">
+                                   id="g20545">
                                 <g
-                                   id="g20502"
-                                   style="">
+                                   id="g20523">
                                 <g
-                                   id="g20482"
-                                   style="">
+                                   id="g20502">
                                 <g
-                                   id="g20463"
-                                   style="">
+                                   id="g20482">
                                 <g
-                                   id="g20445"
-                                   style="">
+                                   id="g20463">
                                 <g
-                                   id="g20428"
-                                   style="">
+                                   id="g20445">
                                 <g
-                                   id="g20412"
-                                   style="">
+                                   id="g20428">
                                 <g
-                                   id="g20397"
-                                   style="">
+                                   id="g20412">
                                 <g
-                                   id="g20383"
-                                   style="">
+                                   id="g20397">
                                 <g
-                                   id="g20370"
-                                   style="">
+                                   id="g20383">
                                 <g
-                                   id="g20358"
-                                   style="">
+                                   id="g20370">
                                 <g
-                                   id="g20347"
-                                   style="">
+                                   id="g20358">
                                 <g
-                                   id="g20337"
-                                   style="">
+                                   id="g20347">
                                 <g
-                                   id="g20328"
-                                   style="">
+                                   id="g20337">
                                 <g
-                                   id="g20320"
-                                   style="">
+                                   id="g20328">
                                 <g
-                                   id="g20313"
-                                   style="">
+                                   id="g20320">
                                 <g
-                                   id="g20307"
-                                   style="">
+                                   id="g20313">
                                 <g
-                                   id="g20302"
-                                   style="">
+                                   id="g20307">
                                 <g
-                                   id="g20298"
-                                   style="">
+                                   id="g20302">
                                 <g
-                                   id="g20295"
-                                   style="">
+                                   id="g20298">
                                 <g
-                                   id="g21347"
-                                   style="">
+                                   id="g20295">
                                 <g
-                                   id="g21310"
-                                   style="">
+                                   id="g21347">
                                 <g
-                                   id="g21274"
-                                   style="">
+                                   id="g21310">
                                 <g
-                                   id="g21239"
-                                   style="">
+                                   id="g21274">
                                 <g
-                                   id="g21205"
-                                   style="">
+                                   id="g21239">
                                 <g
-                                   id="g21172"
-                                   style="">
+                                   id="g21205">
                                 <g
-                                   id="g21140"
-                                   style="">
+                                   id="g21172">
                                 <g
-                                   id="g21109"
-                                   style="">
+                                   id="g21140">
                                 <g
-                                   id="g21079"
-                                   style="">
+                                   id="g21109">
                                 <g
-                                   id="g21050"
-                                   style="">
+                                   id="g21079">
                                 <g
-                                   id="g21022"
-                                   style="">
+                                   id="g21050">
                                 <g
-                                   id="g20995"
-                                   style="">
+                                   id="g21022">
                                 <g
-                                   id="g20969"
-                                   style="">
+                                   id="g20995">
                                 <g
-                                   id="g20944"
-                                   style="">
+                                   id="g20969">
                                 <g
-                                   id="g20920"
-                                   style="">
+                                   id="g20944">
                                 <g
-                                   id="g20897"
-                                   style="">
+                                   id="g20920">
                                 <g
-                                   id="g20875"
-                                   style="">
+                                   id="g20897">
                                 <g
-                                   id="g20854"
-                                   style="">
+                                   id="g20875">
                                 <g
-                                   id="g20834"
-                                   style="">
+                                   id="g20854">
                                 <g
-                                   id="g20815"
-                                   style="">
+                                   id="g20834">
                                 <g
-                                   id="g20797"
-                                   style="">
+                                   id="g20815">
                                 <g
-                                   id="g20780"
-                                   style="">
+                                   id="g20797">
                                 <g
-                                   id="g20764"
-                                   style="">
+                                   id="g20780">
                                 <g
-                                   id="g20749"
-                                   style="">
+                                   id="g20764">
                                 <g
-                                   id="g20735"
-                                   style="">
+                                   id="g20749">
                                 <g
-                                   id="g20722"
-                                   style="">
+                                   id="g20735">
                                 <g
-                                   id="g20710"
-                                   style="">
+                                   id="g20722">
                                 <g
-                                   id="g20699"
-                                   style="">
+                                   id="g20710">
                                 <g
-                                   id="g20689"
-                                   style="">
+                                   id="g20699">
                                 <g
-                                   id="g20680"
-                                   style="">
+                                   id="g20689">
                                 <g
-                                   id="g20672"
-                                   style="">
+                                   id="g20680">
                                 <g
-                                   id="g20665"
-                                   style="">
+                                   id="g20672">
                                 <g
-                                   id="g20659"
-                                   style="">
+                                   id="g20665">
                                 <g
-                                   id="g20654"
-                                   style="">
+                                   id="g20659">
                                 <g
-                                   id="g20650"
-                                   style="">
+                                   id="g20654">
                                 <g
-                                   id="g20647"
-                                   style="">
+                                   id="g20650">
+                                <g
+                                   id="g20647">
                                 <path
-                                   style="fill:url(#linearGradient16922);fill-opacity:1;stroke-width:3.54330707;stroke-miterlimit:4;stroke-dasharray:none;"
-                                   d="m 298.65648,590.07379 c -39.09302,-99.81685 -71.07822,-182.11317 -71.07822,-182.8807 0,-0.76754 5.6391,4.6327 12.53134,12.00052 20.95849,22.40469 46.30702,38.21611 76.43328,47.67608 13.10453,4.11497 19.18527,4.73563 46.39582,4.73563 27.21055,0 33.29129,-0.62066 46.39582,-4.73563 35.83427,-11.25235 65.74154,-32.14193 88.6705,-61.93444 3.1123,-4.04394 4.22535,-4.71627 3.34466,-2.02031 -3.76522,11.52614 -130.47471,367.50376 -130.99871,368.02777 -0.33895,0.33894 -32.60147,-81.05208 -71.69449,-180.86892 z"
+                                   inkscape:connector-curvature="0"
                                    id="path4163"
-                                   inkscape:connector-curvature="0" />
+                                   d="m 298.65648,590.07379 c -39.09302,-99.81685 -71.07822,-182.11317 -71.07822,-182.8807 0,-0.76754 5.6391,4.6327 12.53134,12.00052 20.95849,22.40469 46.30702,38.21611 76.43328,47.67608 13.10453,4.11497 19.18527,4.73563 46.39582,4.73563 27.21055,0 33.29129,-0.62066 46.39582,-4.73563 35.83427,-11.25235 65.74154,-32.14193 88.6705,-61.93444 3.1123,-4.04394 4.22535,-4.71627 3.34466,-2.02031 -3.76522,11.52614 -130.47471,367.50376 -130.99871,368.02777 -0.33895,0.33894 -32.60147,-81.05208 -71.69449,-180.86892 z"
+                                   style="fill:url(#linearGradient16922);fill-opacity:1;stroke-width:3.54330707;stroke-miterlimit:4;stroke-dasharray:none" />
+                                </g>
                                 </g>
                                 </g>
                                 </g>
@@ -1574,25 +1439,46 @@
             </g>
           </g>
         </g>
-      </g>
-      <g
-         transform="translate(140.39819,-84.558005)"
-         id="g21650"
-         style="filter:url(#filter6194)">
+        <g
+           style="filter:url(#filter6194)"
+           id="g21650"
+           transform="translate(140.39819,-84.558005)">
+          <circle
+             cx="-352.46396"
+             cy="179.87167"
+             r="144.89989"
+             transform="matrix(-0.0308255,-0.99952478,0.99952478,-0.0308255,0,0)"
+             id="path4619"
+             style="opacity:1;fill:url(#linearGradient5700);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.19099998;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0" />
+        </g>
         <circle
-           style="opacity:1;fill:url(#linearGradient5700);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.19099998;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
-           id="path4619"
-           transform="matrix(-0.0308255,-0.99952478,0.99952478,-0.0308255,0,0)"
-           r="144.89989"
-           cy="179.87167"
-           cx="-352.46396" />
+           style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.99212599;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0;filter:url(#filter6098)"
+           id="path4693"
+           cx="332.88351"
+           cy="258.31067"
+           r="37.857143" />
       </g>
-      <circle
-         r="37.857143"
-         cy="258.31067"
-         cx="332.88351"
-         id="path4693"
-         style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.99212599;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0;filter:url(#filter6098)" />
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot4643"
+         style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+           id="flowRegion4645"><rect
+             id="rect4647"
+             width="108.48952"
+             height="102.10778"
+             x="274.41464"
+             y="40.857021" /></flowRegion><flowPara
+           id="flowPara4649" /></flowRoot>      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:313.58804321px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+         x="148.36516"
+         y="507.99524"
+         id="text4667"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4669"
+           x="148.36516"
+           y="507.99524">$</tspan></text>
     </g>
   </g>
 </svg>

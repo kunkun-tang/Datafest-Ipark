@@ -1,6 +1,6 @@
 # Datafest-Ipark
 
-##### `An parking app, to reduce the chaos behind football game day parking，decrease traffic and increase the enjoyment of the game day experience`
+##### `An parking app, to reduce the chaos behind football game day parking，decrease traffic and increase the enjoyment of the game day experience.`
 
 ## Overview
 ![image](app/assets/images/gameday.png)
