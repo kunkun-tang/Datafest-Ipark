@@ -67,10 +67,14 @@ function signinCallback(authResult) {
   };                            // function windows.initmap
 
   function create_user_marker() {
+
     user_marker = new google.maps.Marker({
       position: InitPos,
       draggable: true,
-      map: map
+      map: map,
+      icon: {
+        url: 'assets/images/man.svg',
+        scaledSize: new google.maps.Size(40, 64) }
     });
 
     google.maps.event.addListener(user_marker, 'click', function(event) {
@@ -122,7 +126,7 @@ function signinCallback(authResult) {
       position: latlng,
       map: map,
       icon: {
-        url: 'assets/images/Icon' + ratio +'.svg',
+        url: 'assets/images/charge/$Icon' + ratio +'.svg',
         scaledSize: new google.maps.Size(40, 64) }
     });
 
@@ -149,7 +153,7 @@ function signinCallback(authResult) {
 
     var ratio = parseInt((d['available'] / d['max'] * 100) / 10) * 10;
     marker.setIcon({
-      url: 'assets/images/Icon' + ratio +'.svg',
+      url: 'assets/images/charge/$Icon' + ratio +'.svg',
       scaledSize: new google.maps.Size(40, 64) });
 
   }                             // function update_marker
