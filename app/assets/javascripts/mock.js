@@ -3,12 +3,12 @@
   $.mockjax({
     'url': '/query',
     'urlParams': ['lat', 'lng', 'radius', 'username'],
-    'proxy': '/mock/db.json'
+    'proxy': '/assets/db.json'
   });
 
   $.mockjax({
-    'url': '/template/free.html',
-    'proxy': '/template/free.html'
+    'url': '/assets/templates/free.html',
+    'proxy': '/assets/templates/free.html'
   });
 
 })(jQuery);

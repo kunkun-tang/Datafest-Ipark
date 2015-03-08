@@ -122,7 +122,7 @@ function signinCallback(authResult) {
       position: latlng,
       map: map,
       icon: {
-        url: 'assets/img/Icon' + ratio +'.svg',
+        url: 'assets/images/Icon' + ratio +'.svg',
         scaledSize: new google.maps.Size(40, 64) }
     });
 
@@ -149,7 +149,7 @@ function signinCallback(authResult) {
 
     var ratio = parseInt((d['available'] / d['max'] * 100) / 10) * 10;
     marker.setIcon({
-      url: 'assets/img/Icon' + ratio +'.svg',
+      url: 'assets/images/Icon' + ratio +'.svg',
       scaledSize: new google.maps.Size(40, 64) });
 
   }                             // function update_marker
@@ -182,7 +182,7 @@ function signinCallback(authResult) {
   }                             // function route
 
   $(document).ready(function(){
-    $.getScript('/mock/mock.js')
+    $.getScript('/assets/javascripts/mock.js')
       .done(function(){
         $('body').append($('<script/>', {
           'src': MapUrl + $.param(MapParam)
