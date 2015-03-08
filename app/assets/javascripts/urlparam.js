@@ -19,9 +19,7 @@ function UrlParam(url) {
   return url.split("?")[1].split("&")
     .reduce(function(acc, cur) {
       var pair = cur.split("=");
-      acc[unescape(pair[0])] = pair.length > 1
-        ? conv(unescape(pair[1]))
-        : null;
+      acc[unescape(pair[0])] = pair.length > 1 ? conv(unescape(pair[1])) : null;
       return acc;
     }, {});
 }
