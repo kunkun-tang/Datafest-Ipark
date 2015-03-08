@@ -1,3 +1,7 @@
+/*jshint sub:true */
+/*jshint smarttabs:true */
+
+
 (function($, window){
 
   var MapUrl = 'https://maps.googleapis.com/maps/api/js?';
