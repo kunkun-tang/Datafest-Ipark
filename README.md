@@ -25,5 +25,9 @@ $ sbt
 $ open http://localhost:9000
 ```
 
+## Prediction Model
 
-## Front End Feature
+## Future Capabilities
+We would like to make our information 100% accurate so the information is as useful as possible. This will assure the site is actually utilized by our target user base of Auburn game day parkers. To accomplish this goal we have two main options. First, many of the parking lots have humans assigned to the entrance to the lots already to enforce rules. If we could give them a link or a clicker to update the data in real time, the information could reach 100% accuracy. Alternatively, we could put sensors at the entrance and exit to automatically update the data in real time to eliminate human error. 
+
+Furthermore this website need not be limited to only Auburn. Game day parking is a problem on many campuses throughout the world. By allowing users to add parking lots on their own, this website could help people park all over the world!
