@@ -88,6 +88,8 @@ object Application extends Controller with MongoController{
       Json.arr(pl)
     }
 
+    futurePersonsJsonArray.foreach{ jsonArr => println(jsonArr.toString)}
+
     // everything's ok! Let's reply with the array
     futurePersonsJsonArray.map { pl =>
       Ok(pl)
