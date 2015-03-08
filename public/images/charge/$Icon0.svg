@@ -1,0 +1,1598 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg3739"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="$Icon 0.svg">
+  <defs
+     id="defs3741">
+    <linearGradient
+       id="linearGradient5696"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop5698" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5638"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop5640" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient16918"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#0000ff;stop-opacity:1;"
+         offset="0"
+         id="stop16920" />
+    </linearGradient>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4802"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1;fill:#0000ff;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <linearGradient
+       id="linearGradient4674"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#ffcc00;stop-opacity:1;"
+         offset="0"
+         id="stop4676" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.1811 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09449 : 526.1811 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.7874 : 1"
+       id="perspective3810" />
+    <linearGradient
+       id="linearGradient6936"
+       osb:paint="solid"
+       gradientTransform="matrix(4.0816323,0,0,4.081633,1375.4412,1388.0465)">
+      <stop
+         style="stop-color:#1ae629;stop-opacity:1;"
+         offset="0"
+         id="stop6938" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5048"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1;"
+         offset="0"
+         id="stop5050" />
+    </linearGradient>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4108"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4084"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="powerstroke"
+       id="path-effect4011"
+       is_visible="true"
+       offset_points="0,0.5379318"
+       sort_points="true"
+       interpolator_type="CubicBezierJohan"
+       interpolator_beta="0.2"
+       start_linecap_type="zerowidth"
+       linejoin_type="round"
+       miter_limit="4"
+       end_linecap_type="zerowidth"
+       cusp_linecap_type="round" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4009"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="powerstroke"
+       id="path-effect3848"
+       is_visible="true"
+       offset_points="0,0.5"
+       sort_points="true"
+       interpolator_type="CubicBezierJohan"
+       interpolator_beta="0.2"
+       start_linecap_type="zerowidth"
+       linejoin_type="round"
+       miter_limit="4"
+       end_linecap_type="zerowidth"
+       cusp_linecap_type="round" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3846"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="powerstroke"
+       id="path-effect3842"
+       is_visible="true"
+       offset_points="0,0.5"
+       sort_points="true"
+       interpolator_type="CubicBezierJohan"
+       interpolator_beta="0.2"
+       start_linecap_type="zerowidth"
+       linejoin_type="round"
+       miter_limit="4"
+       end_linecap_type="zerowidth"
+       cusp_linecap_type="round" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient16918"
+       id="linearGradient16922"
+       x1="227.57826"
+       y1="586.12027"
+       x2="501.64139"
+       y2="586.12027"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Clean Edges"
+       id="filter16924">
+      <feGaussianBlur
+         stdDeviation="0.4"
+         result="blur"
+         id="feGaussianBlur16926" />
+      <feComposite
+         in="SourceGraphic"
+         in2="blur"
+         operator="in"
+         result="composite1"
+         id="feComposite16928" />
+      <feComposite
+         in="composite1"
+         in2="composite1"
+         k2="1"
+         operator="in"
+         result="fbSourceGraphic"
+         id="feComposite16930" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix16932" />
+      <feGaussianBlur
+         id="feGaussianBlur16934"
+         stdDeviation="0.4"
+         result="blur"
+         in="fbSourceGraphic" />
+      <feComposite
+         id="feComposite16936"
+         in2="blur"
+         in="fbSourceGraphic"
+         operator="in"
+         result="composite1" />
+      <feComposite
+         id="feComposite16938"
+         in2="composite1"
+         in="composite1"
+         k2="1"
+         operator="in"
+         result="composite2" />
+    </filter>
+    <filter
+       inkscape:label="Pointillism"
+       inkscape:menu="Scatter"
+       inkscape:menu-tooltip="Gives a turbulent pointillist HSL sensitive transparency"
+       style="color-interpolation-filters:sRGB;"
+       id="filter5262"
+       height="1.2"
+       width="1.2"
+       y="-0.1"
+       x="-0.1">
+      <feTurbulence
+         baseFrequency="0.14"
+         numOctaves="1"
+         type="fractalNoise"
+         id="feTurbulence5264" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 6 -3.5 "
+         result="result5"
+         id="feColorMatrix5266" />
+      <feComposite
+         in2="result5"
+         operator="in"
+         in="SourceGraphic"
+         result="result6"
+         id="feComposite5268" />
+      <feMorphology
+         result="result3"
+         radius="5"
+         operator="dilate"
+         in="result6"
+         id="feMorphology5270" />
+      <feDisplacementMap
+         result="result4"
+         scale="0"
+         yChannelSelector="A"
+         xChannelSelector="R"
+         in="result3"
+         in2="result3"
+         id="feDisplacementMap5272" />
+      <feComposite
+         in2="result4"
+         operator="arithmetic"
+         result="result2"
+         k1="1"
+         k3="1"
+         id="feComposite5274" />
+      <feBlend
+         mode="darken"
+         in="result2"
+         in2="result2"
+         id="feBlend5276" />
+      <feConvolveMatrix
+         order="3 3"
+         kernelMatrix="2 0 0 0 1 0 0 0 -1 "
+         targetX="1"
+         targetY="1"
+         divisor="2"
+         edgeMode="duplicate"
+         id="feConvolveMatrix5278"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix5280" />
+      <feTurbulence
+         id="feTurbulence5282"
+         seed="50"
+         type="fractalNoise"
+         baseFrequency="1"
+         numOctaves="3"
+         result="result1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix5284"
+         type="luminanceToAlpha"
+         in="fbSourceGraphic"
+         result="result0" />
+      <feColorMatrix
+         id="feColorMatrix5286"
+         result="result2"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 " />
+      <feComposite
+         id="feComposite5288"
+         in2="result2"
+         result="result3"
+         operator="over"
+         in="result1" />
+      <feColorMatrix
+         id="feColorMatrix5290"
+         result="result91"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 5 -3.2" />
+      <feComposite
+         id="feComposite5292"
+         in2="result91"
+         operator="arithmetic"
+         k1="1.5"
+         result="result93" />
+      <feComposite
+         id="feComposite5294"
+         in2="result93"
+         in="fbSourceGraphic"
+         operator="out"
+         result="result4" />
+      <feComposite
+         id="feComposite5296"
+         in2="result4"
+         operator="arithmetic"
+         k2="0.5"
+         k1="1"
+         result="result94" />
+      <feDisplacementMap
+         id="feDisplacementMap5298"
+         in2="result1"
+         scale="15"
+         xChannelSelector="R"
+         yChannelSelector="A"
+         result="result92" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter5434">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood5436" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite5438" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="5.7"
+         result="blur"
+         id="feGaussianBlur5440" />
+      <feOffset
+         dx="3.4"
+         dy="6"
+         result="offset"
+         id="feOffset5442" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="fbSourceGraphic"
+         id="feComposite5444" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix5446" />
+      <feFlood
+         id="feFlood5448"
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         in="fbSourceGraphic" />
+      <feComposite
+         id="feComposite5450"
+         in2="fbSourceGraphic"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur5452"
+         in="composite1"
+         stdDeviation="23.4"
+         result="blur" />
+      <feOffset
+         id="feOffset5454"
+         dx="3.4"
+         dy="6"
+         result="offset" />
+      <feComposite
+         id="feComposite5456"
+         in2="offset"
+         in="fbSourceGraphic"
+         operator="over"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix5458" />
+      <feFlood
+         id="feFlood5460"
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         in="fbSourceGraphic" />
+      <feComposite
+         id="feComposite5462"
+         in2="fbSourceGraphic"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur5464"
+         in="composite1"
+         stdDeviation="140.1"
+         result="blur" />
+      <feOffset
+         id="feOffset5466"
+         dx="3.4"
+         dy="6"
+         result="offset" />
+      <feComposite
+         id="feComposite5468"
+         in2="offset"
+         in="fbSourceGraphic"
+         operator="over"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix5470" />
+      <feFlood
+         id="feFlood5472"
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         in="fbSourceGraphic" />
+      <feComposite
+         id="feComposite5474"
+         in2="fbSourceGraphic"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur5476"
+         in="composite1"
+         stdDeviation="3.6"
+         result="blur" />
+      <feOffset
+         id="feOffset5478"
+         dx="18"
+         dy="6"
+         result="offset" />
+      <feComposite
+         id="feComposite5480"
+         in2="offset"
+         in="fbSourceGraphic"
+         operator="over"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix5482" />
+      <feFlood
+         id="feFlood5484"
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         in="fbSourceGraphic" />
+      <feComposite
+         id="feComposite5486"
+         in2="fbSourceGraphic"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur5488"
+         in="composite1"
+         stdDeviation="3.6"
+         result="blur" />
+      <feOffset
+         id="feOffset5490"
+         dx="18"
+         dy="6"
+         result="offset" />
+      <feComposite
+         id="feComposite5492"
+         in2="offset"
+         in="offset"
+         operator="atop"
+         result="composite2" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Dark And Glow"
+       id="filter5494"
+       y="-0.25"
+       height="1.5"
+       inkscape:menu-tooltip="Darkens the edge with an inner blur and adds a flexible glow"
+       inkscape:menu="Shadows and Glows">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood5496" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite5498" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3.6"
+         result="blur"
+         id="feGaussianBlur5500" />
+      <feOffset
+         dx="18"
+         dy="6"
+         result="offset"
+         id="feOffset5502" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="fbSourceGraphic"
+         id="feComposite5504" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix5506" />
+      <feGaussianBlur
+         id="feGaussianBlur5508"
+         stdDeviation="5"
+         result="result6"
+         in="fbSourceGraphic" />
+      <feComposite
+         id="feComposite5510"
+         in2="result6"
+         result="result8"
+         in="fbSourceGraphic"
+         operator="atop" />
+      <feComposite
+         id="feComposite5512"
+         in2="fbSourceGraphicAlpha"
+         result="result9"
+         operator="over"
+         in="result8" />
+      <feColorMatrix
+         id="feColorMatrix5514"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 "
+         result="result10" />
+      <feBlend
+         id="feBlend5516"
+         in2="result6"
+         in="result10"
+         mode="normal" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter5530">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood5532" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite5534" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3.6"
+         result="blur"
+         id="feGaussianBlur5536" />
+      <feOffset
+         dx="26.6"
+         dy="6"
+         result="offset"
+         id="feOffset5538" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite5540" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter5542">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood5544" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite5546" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3.6"
+         result="blur"
+         id="feGaussianBlur5548" />
+      <feOffset
+         dx="26.6"
+         dy="16.4"
+         result="offset"
+         id="feOffset5550" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite5552" />
+    </filter>
+    <filter
+       inkscape:label="Organic"
+       inkscape:menu="Textures"
+       inkscape:menu-tooltip="Bulging, knotty, slick 3D surface"
+       style="color-interpolation-filters:sRGB;"
+       id="filter5554">
+      <feTurbulence
+         numOctaves="3"
+         baseFrequency="0.037"
+         result="result0"
+         id="feTurbulence5556" />
+      <feSpecularLighting
+         specularExponent="24.3"
+         surfaceScale="2"
+         specularConstant="1"
+         result="result1"
+         id="feSpecularLighting5558">
+        <feDistantLight
+           elevation="45"
+           azimuth="225"
+           id="feDistantLight5560" />
+      </feSpecularLighting>
+      <feDiffuseLighting
+         in="result0"
+         surfaceScale="3"
+         diffuseConstant="1.21"
+         id="feDiffuseLighting5562">
+        <feDistantLight
+           azimuth="225"
+           elevation="42"
+           id="feDistantLight5564" />
+      </feDiffuseLighting>
+      <feBlend
+         in2="SourceGraphic"
+         mode="multiply"
+         result="result91"
+         id="feBlend5566" />
+      <feComposite
+         operator="arithmetic"
+         in="result1"
+         k2="1"
+         k3="1"
+         in2="result91"
+         id="feComposite5568" />
+      <feComposite
+         in2="SourceAlpha"
+         operator="in"
+         result="result2"
+         id="feComposite5570" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4674"
+       id="linearGradient5700"
+       x1="-465.24887"
+       y1="351.01651"
+       x2="-174.25809"
+       y2="351.01651"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-32.71049,-171.14483)" />
+    <filter
+       inkscape:menu-tooltip="Bright metallic effect for any color"
+       inkscape:menu="Bevels"
+       inkscape:label="Bright Metal"
+       style="color-interpolation-filters:sRGB;"
+       id="filter6098">
+      <feGaussianBlur
+         result="result6"
+         stdDeviation="8"
+         in="SourceGraphic"
+         id="feGaussianBlur6100" />
+      <feComposite
+         in2="SourceGraphic"
+         in="result6"
+         operator="xor"
+         result="result10"
+         id="feComposite6102" />
+      <feGaussianBlur
+         result="result2"
+         stdDeviation="8"
+         id="feGaussianBlur6104" />
+      <feComposite
+         in2="SourceGraphic"
+         operator="atop"
+         in="result10"
+         result="result91"
+         id="feComposite6106" />
+      <feComposite
+         result="result4"
+         in="result2"
+         operator="xor"
+         in2="result91"
+         id="feComposite6108" />
+      <feGaussianBlur
+         in="result4"
+         result="result3"
+         stdDeviation="4"
+         id="feGaussianBlur6110" />
+      <feSpecularLighting
+         result="result5"
+         specularExponent="5"
+         specularConstant="1.1"
+         surfaceScale="18"
+         id="feSpecularLighting6112">
+        <feDistantLight
+           azimuth="235"
+           elevation="55"
+           id="feDistantLight6114" />
+      </feSpecularLighting>
+      <feComposite
+         in="result3"
+         k3="1.1"
+         k2="0.5"
+         operator="arithmetic"
+         result="result7"
+         in2="result5"
+         k1="0.5"
+         id="feComposite6116" />
+      <feComposite
+         in="result7"
+         operator="atop"
+         in2="SourceGraphic"
+         result="result8"
+         id="feComposite6118" />
+    </filter>
+    <filter
+       inkscape:label="Molten Metal"
+       inkscape:menu="Bevels"
+       inkscape:menu-tooltip="Melting parts of object together, with a glossy bevel and a glow"
+       style="color-interpolation-filters:sRGB;"
+       id="filter6194">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="result1"
+         id="feGaussianBlur6196" />
+      <feColorMatrix
+         result="result10"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 5 -4 "
+         id="feColorMatrix6198" />
+      <feComposite
+         operator="atop"
+         in="result10"
+         in2="result10"
+         result="result8"
+         id="feComposite6200" />
+      <feComposite
+         operator="in"
+         result="fbSourceGraphic"
+         in="result1"
+         in2="result8"
+         id="feComposite6202" />
+      <feGaussianBlur
+         result="result0"
+         in="fbSourceGraphic"
+         stdDeviation="5"
+         id="feGaussianBlur6204" />
+      <feSpecularLighting
+         specularExponent="55"
+         specularConstant="2.5"
+         surfaceScale="2"
+         lighting-color="rgb(255,255,255)"
+         result="result1"
+         in="result0"
+         id="feSpecularLighting6206">
+        <feDistantLight
+           azimuth="225"
+           elevation="60"
+           id="feDistantLight6208" />
+      </feSpecularLighting>
+      <feComposite
+         operator="in"
+         result="result2"
+         in="result1"
+         in2="fbSourceGraphic"
+         id="feComposite6210" />
+      <feComposite
+         k3="1"
+         k2="1"
+         operator="arithmetic"
+         result="result4"
+         in="fbSourceGraphic"
+         in2="result2"
+         id="feComposite6212" />
+      <feComposite
+         operator="in"
+         in="result9"
+         in2="result4"
+         result="result9"
+         id="feComposite6214" />
+      <feBlend
+         mode="multiply"
+         in="result9"
+         in2="result9"
+         id="feBlend6216" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.62678868"
+     inkscape:cx="448.95975"
+     inkscape:cy="655.85241"
+     inkscape:document-units="px"
+     inkscape:current-layer="g5249"
+     showgrid="false"
+     inkscape:object-nodes="true"
+     inkscape:snap-global="false"
+     inkscape:snap-nodes="false"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3744">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g5249"
+       transform="translate(-33.504115,-1.595434)">
+      <g
+         id="g4358"
+         style="filter:url(#filter5542)"
+         transform="translate(-41.481285,-57.435626)">
+        <g
+           id="g20568"
+           transform="translate(-183.47492,-14.358907)"
+           style="">
+          <g
+             transform="translate(-1.4285714,1.4285714)"
+             id="g20217"
+             style="">
+            <g
+               id="g20140"
+               style="">
+              <g
+                 id="g20064"
+                 style="">
+                <g
+                   id="g19989"
+                   style="">
+                  <g
+                     id="g19915"
+                     style="">
+                    <g
+                       id="g19842"
+                       style="">
+                      <g
+                         id="g19770"
+                         style="">
+                        <g
+                           id="g19699"
+                           style="">
+                          <a
+                             transform="translate(192.85714,22.857143)"
+                             style="fill:#0000ff;"
+                             id="a4171">
+                            <g
+                               style="fill:#0000ff;"
+                               id="g7818">
+                              <circle
+                                 r="165.77585"
+                                 cy="308.4231"
+                                 cx="362.26541"
+                                 id="path3747"
+                                 style="fill:#0000ff;fill-opacity:1;stroke:none;" />
+                              <circle
+                                 style="fill:#0000ff;fill-opacity:1;stroke:none;"
+                                 id="circle4175"
+                                 cx="362.26541"
+                                 cy="308.4231"
+                                 r="165.77585" />
+                              <g
+                                 id="g17928"
+                                 style="">
+                                <g
+                                   id="g17889"
+                                   style="">
+                                <g
+                                   id="g17851"
+                                   style="">
+                                <g
+                                   id="g17814"
+                                   style="">
+                                <g
+                                   id="g17778"
+                                   style="">
+                                <g
+                                   id="g17743"
+                                   style="">
+                                <g
+                                   id="g17709"
+                                   style="">
+                                <g
+                                   id="g17676"
+                                   style="">
+                                <g
+                                   id="g17644"
+                                   style="">
+                                <g
+                                   id="g17613"
+                                   style="">
+                                <g
+                                   id="g17583"
+                                   style="">
+                                <g
+                                   id="g17554"
+                                   style="">
+                                <g
+                                   id="g17526"
+                                   style="">
+                                <g
+                                   id="g17499"
+                                   style="">
+                                <g
+                                   id="g17473"
+                                   style="">
+                                <g
+                                   id="g17448"
+                                   style="">
+                                <g
+                                   id="g17424"
+                                   style="">
+                                <g
+                                   id="g17401"
+                                   style="">
+                                <g
+                                   id="g17379"
+                                   style="">
+                                <g
+                                   id="g17358"
+                                   style="">
+                                <g
+                                   id="g17338"
+                                   style="">
+                                <g
+                                   id="g17319"
+                                   style="">
+                                <g
+                                   id="g17301"
+                                   style="">
+                                <g
+                                   id="g17284"
+                                   style="">
+                                <g
+                                   id="g17268"
+                                   style="">
+                                <g
+                                   id="g17253"
+                                   style="">
+                                <g
+                                   id="g17239"
+                                   style="">
+                                <g
+                                   id="g17226"
+                                   style="">
+                                <g
+                                   id="g17214"
+                                   style="">
+                                <g
+                                   id="g17203"
+                                   style="">
+                                <g
+                                   id="g17193"
+                                   style="">
+                                <g
+                                   id="g17184"
+                                   style="">
+                                <g
+                                   id="g17176"
+                                   style="">
+                                <g
+                                   id="g17169"
+                                   style="">
+                                <g
+                                   id="g17163"
+                                   style="">
+                                <g
+                                   id="g17158"
+                                   style="">
+                                <g
+                                   id="g17154"
+                                   style="">
+                                <g
+                                   id="g17151"
+                                   style="">
+                                <g
+                                   id="g19201"
+                                   style="">
+                                <g
+                                   id="g19174"
+                                   style="">
+                                <g
+                                   id="g19148"
+                                   style="">
+                                <g
+                                   id="g19123"
+                                   style="">
+                                <g
+                                   id="g19099"
+                                   style="">
+                                <g
+                                   id="g19076"
+                                   style="">
+                                <g
+                                   id="g19054"
+                                   style="">
+                                <g
+                                   id="g19033"
+                                   style="">
+                                <g
+                                   id="g19013"
+                                   style="">
+                                <g
+                                   id="g18994"
+                                   style="">
+                                <g
+                                   id="g18976"
+                                   style="">
+                                <g
+                                   id="g18959"
+                                   style="">
+                                <g
+                                   id="g18943"
+                                   style="">
+                                <g
+                                   id="g18928"
+                                   style="">
+                                <g
+                                   id="g18914"
+                                   style="">
+                                <g
+                                   id="g18901"
+                                   style="">
+                                <g
+                                   id="g18889"
+                                   style="">
+                                <g
+                                   id="g18878"
+                                   style="">
+                                <g
+                                   id="g18868"
+                                   style="">
+                                <g
+                                   id="g18859"
+                                   style="">
+                                <g
+                                   id="g18851"
+                                   style="">
+                                <g
+                                   id="g18844"
+                                   style="">
+                                <g
+                                   id="g18838"
+                                   style="">
+                                <g
+                                   id="g18833"
+                                   style="">
+                                <g
+                                   id="g18829"
+                                   style="">
+                                <g
+                                   id="g18826"
+                                   style="">
+                                <circle
+                                   r="165.77585"
+                                   cy="308.4231"
+                                   cx="362.26541"
+                                   id="circle4189"
+                                   style="fill:#0000ff;fill-opacity:1;stroke:none;" />
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                              </g>
+                            </g>
+                          </a>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g
+           id="g17148"
+           transform="translate(7.7867999,8.6650982)"
+           style="">
+          <g
+             id="g18785"
+             style="">
+            <g
+               id="g18745"
+               style="">
+              <g
+                 id="g18706"
+                 style="">
+                <g
+                   id="g18668"
+                   style="">
+                  <g
+                     id="g18631"
+                     style="">
+                    <g
+                       id="g18595"
+                       style="">
+                      <g
+                         id="g18560"
+                         style="">
+                        <g
+                           id="g18526"
+                           style="">
+                          <g
+                             id="g18493"
+                             style="">
+                            <g
+                               id="g18461"
+                               style="">
+                              <g
+                                 id="g18430"
+                                 style="">
+                                <g
+                                   id="g18400"
+                                   style="">
+                                <g
+                                   id="g18371"
+                                   style="">
+                                <g
+                                   id="g18343"
+                                   style="">
+                                <g
+                                   id="g18316"
+                                   style="">
+                                <g
+                                   id="g18290"
+                                   style="">
+                                <g
+                                   id="g18265"
+                                   style="">
+                                <g
+                                   id="g18241"
+                                   style="">
+                                <g
+                                   id="g18218"
+                                   style="">
+                                <g
+                                   id="g18196"
+                                   style="">
+                                <g
+                                   id="g18175"
+                                   style="">
+                                <g
+                                   id="g18155"
+                                   style="">
+                                <g
+                                   id="g18136"
+                                   style="">
+                                <g
+                                   id="g18118"
+                                   style="">
+                                <g
+                                   id="g18101"
+                                   style="">
+                                <g
+                                   id="g18085"
+                                   style="">
+                                <g
+                                   id="g18070"
+                                   style="">
+                                <g
+                                   id="g18056"
+                                   style="">
+                                <g
+                                   id="g18043"
+                                   style="">
+                                <g
+                                   id="g18031"
+                                   style="">
+                                <g
+                                   id="g18020"
+                                   style="">
+                                <g
+                                   id="g18010"
+                                   style="">
+                                <g
+                                   id="g18001"
+                                   style="">
+                                <g
+                                   id="g17993"
+                                   style="">
+                                <g
+                                   id="g17986"
+                                   style="">
+                                <g
+                                   id="g17980"
+                                   style="">
+                                <g
+                                   id="g17975"
+                                   style="">
+                                <g
+                                   id="g17971"
+                                   style="">
+                                <g
+                                   id="g17968"
+                                   style="">
+                                <g
+                                   id="g19229"
+                                   style="">
+                                <g
+                                   id="g20545"
+                                   style="">
+                                <g
+                                   id="g20523"
+                                   style="">
+                                <g
+                                   id="g20502"
+                                   style="">
+                                <g
+                                   id="g20482"
+                                   style="">
+                                <g
+                                   id="g20463"
+                                   style="">
+                                <g
+                                   id="g20445"
+                                   style="">
+                                <g
+                                   id="g20428"
+                                   style="">
+                                <g
+                                   id="g20412"
+                                   style="">
+                                <g
+                                   id="g20397"
+                                   style="">
+                                <g
+                                   id="g20383"
+                                   style="">
+                                <g
+                                   id="g20370"
+                                   style="">
+                                <g
+                                   id="g20358"
+                                   style="">
+                                <g
+                                   id="g20347"
+                                   style="">
+                                <g
+                                   id="g20337"
+                                   style="">
+                                <g
+                                   id="g20328"
+                                   style="">
+                                <g
+                                   id="g20320"
+                                   style="">
+                                <g
+                                   id="g20313"
+                                   style="">
+                                <g
+                                   id="g20307"
+                                   style="">
+                                <g
+                                   id="g20302"
+                                   style="">
+                                <g
+                                   id="g20298"
+                                   style="">
+                                <g
+                                   id="g20295"
+                                   style="">
+                                <g
+                                   id="g21347"
+                                   style="">
+                                <g
+                                   id="g21310"
+                                   style="">
+                                <g
+                                   id="g21274"
+                                   style="">
+                                <g
+                                   id="g21239"
+                                   style="">
+                                <g
+                                   id="g21205"
+                                   style="">
+                                <g
+                                   id="g21172"
+                                   style="">
+                                <g
+                                   id="g21140"
+                                   style="">
+                                <g
+                                   id="g21109"
+                                   style="">
+                                <g
+                                   id="g21079"
+                                   style="">
+                                <g
+                                   id="g21050"
+                                   style="">
+                                <g
+                                   id="g21022"
+                                   style="">
+                                <g
+                                   id="g20995"
+                                   style="">
+                                <g
+                                   id="g20969"
+                                   style="">
+                                <g
+                                   id="g20944"
+                                   style="">
+                                <g
+                                   id="g20920"
+                                   style="">
+                                <g
+                                   id="g20897"
+                                   style="">
+                                <g
+                                   id="g20875"
+                                   style="">
+                                <g
+                                   id="g20854"
+                                   style="">
+                                <g
+                                   id="g20834"
+                                   style="">
+                                <g
+                                   id="g20815"
+                                   style="">
+                                <g
+                                   id="g20797"
+                                   style="">
+                                <g
+                                   id="g20780"
+                                   style="">
+                                <g
+                                   id="g20764"
+                                   style="">
+                                <g
+                                   id="g20749"
+                                   style="">
+                                <g
+                                   id="g20735"
+                                   style="">
+                                <g
+                                   id="g20722"
+                                   style="">
+                                <g
+                                   id="g20710"
+                                   style="">
+                                <g
+                                   id="g20699"
+                                   style="">
+                                <g
+                                   id="g20689"
+                                   style="">
+                                <g
+                                   id="g20680"
+                                   style="">
+                                <g
+                                   id="g20672"
+                                   style="">
+                                <g
+                                   id="g20665"
+                                   style="">
+                                <g
+                                   id="g20659"
+                                   style="">
+                                <g
+                                   id="g20654"
+                                   style="">
+                                <g
+                                   id="g20650"
+                                   style="">
+                                <g
+                                   id="g20647"
+                                   style="">
+                                <path
+                                   style="fill:url(#linearGradient16922);fill-opacity:1;stroke-width:3.54330707;stroke-miterlimit:4;stroke-dasharray:none;"
+                                   d="m 298.65648,590.07379 c -39.09302,-99.81685 -71.07822,-182.11317 -71.07822,-182.8807 0,-0.76754 5.6391,4.6327 12.53134,12.00052 20.95849,22.40469 46.30702,38.21611 76.43328,47.67608 13.10453,4.11497 19.18527,4.73563 46.39582,4.73563 27.21055,0 33.29129,-0.62066 46.39582,-4.73563 35.83427,-11.25235 65.74154,-32.14193 88.6705,-61.93444 3.1123,-4.04394 4.22535,-4.71627 3.34466,-2.02031 -3.76522,11.52614 -130.47471,367.50376 -130.99871,368.02777 -0.33895,0.33894 -32.60147,-81.05208 -71.69449,-180.86892 z"
+                                   id="path4163"
+                                   inkscape:connector-curvature="0" />
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         transform="translate(140.39819,-84.558005)"
+         id="g21650"
+         style="filter:url(#filter6194)">
+        <circle
+           style="opacity:1;fill:url(#linearGradient5700);fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.19099998;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+           id="path4619"
+           transform="matrix(-0.0308255,-0.99952478,0.99952478,-0.0308255,0,0)"
+           r="144.89989"
+           cy="179.87167"
+           cx="-352.46396" />
+      </g>
+      <circle
+         r="37.857143"
+         cy="258.31067"
+         cx="332.88351"
+         id="path4693"
+         style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.99212599;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0;filter:url(#filter6098)" />
+    </g>
+  </g>
+</svg>
